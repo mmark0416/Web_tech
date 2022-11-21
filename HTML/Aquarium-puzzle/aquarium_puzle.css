@@ -1,0 +1,38 @@
+table {
+    border-collapse: collapse;    
+}
+td {
+    border: thin solid black;
+}
+ tr, td, th {
+    height: 40px;
+    width: 40px;
+}
+table td th tr {
+    border: this solid black;
+    
+}
+
+.top {
+    border-top: medium solid black;
+}
+
+.right {
+    border-right: medium solid black;
+}
+
+.left {
+    border-left: medium solid black;
+}
+
+.bottom {
+    border-bottom: medium solid black;
+}
+
+.blue {
+    background-color: turquoise;
+}
+
+.white {
+    background-color: white;
+}
