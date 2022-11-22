@@ -1,38 +1,60 @@
-table {
-    border-collapse: collapse;    
+
+body{
+    border: thin solid black;
+    max-width: 40em;
+    top: 20%;
+    padding: 20px;
+    margin: auto;
+    transform: rotate(0deg) translate(0%, 30%);
+
 }
+.aquarium_puzzle {
+    border-collapse: collapse;
+    margin: auto;
+}
+
 td {
     border: thin solid black;
 }
- tr, td, th {
-    height: 40px;
-    width: 40px;
+
+ td, th {
+    height: 30px;
+    width: 30px;
 }
-table td th tr {
+
+th {
+    color: lightgray;
+}
+td th tr {
     border: this solid black;
-    
 }
 
 .top {
-    border-top: medium solid black;
+    border-top: thick solid black;
 }
 
 .right {
-    border-right: medium solid black;
+    border-right: thick solid black;
 }
 
 .left {
-    border-left: medium solid black;
+    border-left: thick solid black;
 }
 
 .bottom {
-    border-bottom: medium solid black;
+    border-bottom: thick solid black;
 }
 
 .blue {
-    background-color: turquoise;
+    background-color: rgb(83, 255, 238);
 }
 
 .white {
-    background-color: white;
+    background-color: rgb(248, 231, 231);
+}
+div{
+    font-size: 1.2em;
+}
+h1 div{
+    margin-left: 0.5em;
 }
